@@ -2,33 +2,28 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Bootstrap Play</title>
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <div class="demo-content">
-            .col-md-3 .col-sm-6
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="demo-content bg-alt">
-            .col-md-3 .col-sm-6
-          </div>
-        </div>
-        <div class="clearfix visible-sm-block"></div>
-        <div class="col-md-3 col-sm-6">
-          <div class="demo-content">
-            .col-md-3 .col-sm-6
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="demo-content bg-alt">
-            .col-md-3 .col-sm-6
-          </div>
+        <div class="row">
+            <div class="col-xs-8">
+                <div class="main-content"></div>
+            </div>
+            <div class="col-xs-4">
+                <!--Nested rows within a column-->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="sidebar-content"></div>
+                    </div>
+                </div>
+				<div class="row">
+                    <div class="col-xs-12">
+                        <div class="sidebar-content"></div>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
-    </div>
   </body>
 </html>
