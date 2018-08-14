@@ -5,13 +5,25 @@
     <title>Bootstrap Play</title>
   </head>
   <body>
-    <div class="bs-example">
-      <p class="text-muted">Muted: this text is grayed out.</p>
-      <p class="text-primary">Important: Please read the instructions carefully</p>
-      <p class="text-success">Success: Your message has been sent successfully.</p>
-      <p class="text-info">Note: You must agree with the tem and conditions to complete the sign up process.</p>
-      <p class="text-warning">Warning: There was a problem wiht your network</p>
-      <p class="text-danger">Error: An error has been occured while submitting your data.</p>
-    </div>
+  <div class="bs-example">
+    <form class="" action="index.html" method="post">
+      <div class="form-group">
+        <label for="inputEmail">Email</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+      </div>
+      <div class="form-group">
+        <label for="inputPassword">Password</label>
+        <input type="password" class="form-control" id="" placeholder="Password" required>
+      </div>
+      <div class="form-group">
+        <div class="checkbox">
+          <label><input type="checkbox" name="" value=""> Remember me</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary" name="button">Login</button>
+      </div>
+    </form>
+  </div>
   </body>
 </html>
